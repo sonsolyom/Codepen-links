@@ -1,0 +1,93 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: #aaa;
+}
+
+h1 {
+  color: #000;
+}
+
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter-form {
+  border: 1px solid rgba(120, 120, 120, 0.5);
+  padding: 10px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.newsletter-form h2 {
+  margin-top: 0;
+  color: #555;
+}
+
+
+
+a {
+  color: #3cb878;
+}
+
+input[type="text"], 
+input[type="submit"] {
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 0 5px;
+  color: #fff;
+}
+ 
+input[type="submit"] {
+  width: 100%;
+  background: #3cb878;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.exit-btn {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.question-btn a{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100px;
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background: #3cb878;
+  box-shadow: 0px 0px 20px 0px #222;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.key-features {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature {
+  background-color: #3cb878;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0px 0px 20px 0px #222;
+  
+}
+
+.feature p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+}

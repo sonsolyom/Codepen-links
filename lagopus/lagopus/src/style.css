@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  font-family: 'Baloo Thambi 2', cursive ;
+  width: 250px;
+  background-color: #0D91A1;
+  color: #015668;
+  font-size: 30px;
+  padding: 20px 50px 70px 20px;
+  margin-bottom: 15px;
+  border: 5px solid #7DCE94;
+}

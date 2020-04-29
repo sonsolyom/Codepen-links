@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 50px;
+  background: purple;
+  align-items: center;
+}
+
+nav {
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  widht: 150px;
+  list-style-type: none;
+  align-items: center;
+  
+}
+
+li {
+  flex-direction: row;
+  background: cyan;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+}
+
+.bigger {
+  width: 150px;
+}
+
+div {
+  display: flex;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 3;
+  background: yellow;
+}
+
+aside {
+  flex-grow: 1;
+  background: lime;
+  
+}

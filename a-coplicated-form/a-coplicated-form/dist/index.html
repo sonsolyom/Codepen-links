@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A coplicated form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="#">
+  <fieldset class="outer-box">
+    <legend>
+      Interesing application form 🙄
+    </legend>
+    <fieldset class="first-box">
+      <legend>
+        What is your name?
+      </legend>
+      <input type="text">
+    </fieldset>
+    <fieldset class="second-box">
+      <legend>
+        What is your favourite color?
+      </legend>
+      <input type="radio" id="red" name="color">
+      <label for="kraken">
+      Red
+      </label><br/>
+      <input type="radio" id="green" name="color">
+      <label for="green">
+        Green
+      </label><br/>
+      <input type="radio" id="blue" name="color">
+      <label for="blue">
+        Blue
+      </label><br/>
+      <input type="radio" id="other" name="color">
+      <label for="other">
+        Other       
+        <input type="text" id="myClick" onclick="myFunction()">
+      </label><br/>
+    </fieldset>
+    <fieldset class="third-box">
+      <legend>Would you like to become a developer?</legend>
+      <input type="radio" id="yes" name="answer">
+      <label for="yes">
+        Yes
+      </label></br>
+      <input type="radio" id="ano" name="answer">
+      <label for="ano">
+        Ano
+      </label></br>
+      <input type="radio" id="igen" name="answer">
+      <label for="igen">
+        Igen
+      </label></br>
+      <input type="radio" id="kanji" name="answer">
+      <label for="kanji">
+         是
+      </label></br>
+    </fieldset>
+    <fieldset class="fourth-box">
+      <legend>
+        Why would you like to become a developer?
+      </legend>
+      <textarea name="why" id="why" cols="40" rows="10"></textarea>
+    </fieldset>
+    <input type="submit" value="Submit">
+    <!--<button>Submit</button> , variacio.-->
+  </fieldset>
+  
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

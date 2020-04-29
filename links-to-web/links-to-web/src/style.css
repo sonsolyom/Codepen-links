@@ -1,0 +1,21 @@
+* {
+  font-family: 'Sen', sans-serif;
+  font-size: 20px;
+}
+
+a {
+  display: block;
+  margin: 10px auto;
+}
+
+a:link,
+a:visited {
+  color: green;
+}
+
+a:hover,
+a:active {
+  color: lime;
+  text-decoration: none;
+  cursor: pointer;
+}
